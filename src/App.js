@@ -13,7 +13,7 @@ const App = () => {
       <ambientLight intensity={ 0.1 } />
       <directionalLight position={[1, 20, 3]} intensity={ 1 } />
         <Float speed={ 2 }>
-          <primitive object={ model.scene } position-y={ -0.5 } scale={ 15 } />
+          <primitive object={ model.scene } position-y={ -0.75 } scale={ 20 } />
         </Float>
     </Canvas>
   );
